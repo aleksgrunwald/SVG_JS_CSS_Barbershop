@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scoped CSS Variables and JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <svg class="head" width="730" height="750">
+  
+    <ellipse class="ear ear-left"
+          cx="100" cy="215" rx="30" ry="37"/>
+    
+     <ellipse class="ear ear-right"
+          cx="300" cy="215" rx="30" ry="37"/>
+    
+    <path class="face" 
+          d="M100,100 V300 A10,10 0 0,0 300,300 V130 H100"
+          style=""/>
+    
+    <circle class="eye eye-left"
+          cx="156" cy="211" r="4"/>
+    
+    <path class="mouth" 
+          d="M197,330 a1.8,1 0 0,0 15,0"/>
+    
+    <path class="nose" 
+          d="M185,228 L179,285 a1.8,1 0 0,0 45,0 L216,227 A15,19 0 0,0 185,228"/>
+   
+  <!--   <path class="hair"
+          d="M100,130 V310 L170,280 L210,170 L250,142 L288,160 V205 H302 V130 A1,1 0 0,0 100,130"
+          style="stroke: brown;
+      stroke-width: 8;
+      fill: #ffebbf;"/> -->
+    
+    <path class="beard"
+          d="M100,205 V540 A10,10 0 0,0 300,540 V205 H289 V260
+             A51,47 1 0,1 245,302 H144 A28,40 1 0,1 113,260 V205 H100"
+          style="stroke: none;
+      stroke-width: 3;
+      fill: #b76d2d;
+       opacity: 1;"/>
+    
+     <path class="hair"
+          d="M100,130 L91,320 L170,280 L210,170 L250,142 L288,160 V205 H302 V110 A270,120 1 0,1 280,50 L140,90 L100,130"
+          style="stroke: none;
+      stroke-width: 8;
+      fill: #8e6440;
+       opacity: 1.4;"/>
+      
+      <circle class="eye eye-right"
+          cx="252" cy="211" r="4"/>
+   
+  </svg>
+</body>
+</html>

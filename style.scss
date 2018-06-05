@@ -1,0 +1,39 @@
+body{
+    position: relative;
+    .head {
+      background-color: #e8e9ef;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 300;
+      margin: auto;
+  
+      .ear {
+        stroke: #f7c9a3;
+        stroke-width: 7;
+        fill: #e0b591;
+      }
+      .face {
+        stroke: #f4d7ad;
+        stroke-width: 2;
+        fill: #ffebbf;
+      }
+      .eye {
+        stroke: #3e62b7;
+        stroke-width: 4;
+        fill: none;
+      }
+      .mouth {
+        stroke: black;
+        stroke-width: 4;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .nose {
+        stroke: #f7c9a3;
+        stroke-width: 2;
+        fill: #fcd0ab;
+      }
+    }
+  }
